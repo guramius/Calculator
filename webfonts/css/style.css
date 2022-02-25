@@ -1,0 +1,44 @@
+.container {
+  max-width: 261px;
+  margin: 40px auto 0 auto;
+  box-shadow: 0 0 23px 7px rgb(168, 167, 167);
+
+}
+#display {
+  text-align: right;
+  height: 50px;
+  padding: 16px 8px;
+  line-height: 70px;
+  font-size: 25px;
+}
+.buttons {
+  display: flex;
+}
+.button {
+  border: 1px solid rgb(0, 0, 0);
+  padding: 25px;
+  font-size: 20px;
+  cursor: pointer;
+}
+#equal {
+  background-color: tomato;
+  color: white;
+}
+.button:hover {
+  background-color: rgba(0, 0, 0, 0.671);
+  color: white;
+  transition: 0.5s ease-in-out;
+}
+.mode {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.mode .button {
+  border: 1px solid white;
+}
+i {
+  font-size: 40px;
+}
